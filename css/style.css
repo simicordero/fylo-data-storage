@@ -1,0 +1,137 @@
+body {
+    max-width: 1440px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    background-image: url("../images/bg-desktop.png");
+    background-color: hsl(229, 57%, 11%);
+    background-repeat: no-repeat;
+    background-position-y: 50vh;
+    color: white
+}
+
+
+
+.fylo-logo {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border: 1px solid transparent;
+    width: 400px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 20px;
+    border-top-right-radius: 80px;
+}
+
+.fylo-logo .image-top {
+    display: block;
+    margin-top: 2.1em;
+    padding-left: 15px;
+}
+
+.icons-container {
+    display: flex;
+    width: 2em;
+}
+
+.icons {
+    margin: 2em 1em;
+    padding: 1em;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 30%;
+    justify-content: space-evenly;
+}
+
+.attribution {
+    
+}
+
+.info-bar-container {
+    display: flex;
+    border: 1px solid transparent;
+    width: 600px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    flex-direction: column;
+}
+
+.info-bar-container p {
+   width: 100%;
+}
+
+.info-bar-top {
+    padding-top: 2em;
+    padding-left: 5%;
+}
+
+.info-bar-container::before {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    right: 30px;
+    width: 70px;
+    height: 50px;
+    background-color: #fff;
+    clip-path: polygon(100% 0, 37% 0, 100% 100%);
+}
+
+.barra {
+    width: 88%;
+    height: 10px;
+    padding: 1.2px;
+    margin-left: 3em;
+    border-radius: 40px;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.barra-dentro {
+    position: relative;
+    width: 80%;
+    height: 10px;
+    border-radius: 40px;
+    align-self: center;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.barra-redonda {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 0;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.gb {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    padding: 0 2em;
+    padding-bottom: 4em;
+}
+
+.balloon {
+    position: absolute;
+    width: 130px;
+    height: 65px;
+    top: -40px;
+    right: 30px;
+    border-radius: 13px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.balloon-number {
+    color: #000;
+    font-size: 2em;
+    font-weight: bold;
+    align-self: center;
+}
+.balloon-p {
+    color: gray;
+    font-size: 1em;
+    text-transform: uppercase;
+    align-self: center;
+}
